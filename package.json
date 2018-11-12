@@ -1,0 +1,57 @@
+{
+  "name": "myworld-server",
+  "version": "1.0.0",
+  "description": "my world about my work",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-example",
+    "stop": "egg-scripts stop --title=egg-server-example",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "dependencies": {
+    "egg": "^2.2.1",
+    "egg-scripts": "^2.5.0",
+    "egg-view-nunjucks": "^2.2.0"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.0.0",
+    "egg-bin": "^4.3.5",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.14.0",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^6.0.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linshiding/myworld-server.git"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "keywords": [
+    "egg",
+    "js",
+    "node"
+  ],
+  "ci": {
+    "version": "8"
+  },
+  "author": "linshiding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linshiding/myworld-server/issues"
+  },
+  "homepage": "https://github.com/linshiding/myworld-server#readme"
+}
