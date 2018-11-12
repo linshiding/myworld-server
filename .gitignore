@@ -6,6 +6,8 @@ yarn.lock
 coverage/
 .idea/
 run/
+logs/
 .DS_Store
 *.sw*
 *.un~
+*.log
